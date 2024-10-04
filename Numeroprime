@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Numeroprime {
+    public static  void main(String[] args){
+
+
+        Scanner scanner = new scanner(System.in);
+        System.out.println(x:"Ingrese un numero:");
+        int numero= Scanner.nextInt();
+
+        numeroPrimo(numero);
+        rangoNumeroPrimo(numero1,numero2);
+
+        Scanner.close();
+
+
+
+
+    public static void numeroPrimo(int numero){
+        if (numero % 2 == 0){
+            System.out.println("El numero es par");
+        }else{
+            System.out.println("El numero es impar");
+        }
+    }
+
+    public static void rangoNumeroPrimo(int numero1, int numero2){
+        for (int i = numero1; i <= numero2; i++){
+            if (i % 2 == 0){
+                System.out.println(i + " es par");
+            }else{
+                System.out.println(i + " es impar");
+            }
+        }
+    }
+    }
+}
